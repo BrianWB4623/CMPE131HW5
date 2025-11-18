@@ -15,3 +15,7 @@ Regression Test: A regression test tests already exisiting pieces of the progrma
 Pytest is a testing framework in Python that automatically finds and executes test cases in your project. It looks for files, classes and functions that follow certain naming patterns.
 
 A fixture in pytest is a reusable piece of setup/teardown code that provides data, objects, or state to test functions. It is a function that can set up Test data, temporary file, etc
+
+## Pytest Feature Used
+
+@pytest.mark.parametrize
