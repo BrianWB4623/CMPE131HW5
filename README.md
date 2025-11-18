@@ -19,3 +19,7 @@ A fixture in pytest is a reusable piece of setup/teardown code that provides dat
 ## Pytest Feature Used
 
 @pytest.mark.parametrize
+
+## Regression test-Q5
+
+I created a regression test file name test_apply_discount_bug.py, this test calls apply_discount(20.0,10) and anticipates a result of 18.0, When first running it the bug in apply_discount causes it to fail. The bug in apply discount was that it was not dividing the percentage by 100. I fixed the bug and the test passed, confirming it works correctly now
